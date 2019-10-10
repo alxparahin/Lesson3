@@ -152,6 +152,9 @@ public class Task1 {
             System.out.println(Integer.toBinaryString(i));
             System.out.println(Integer.toBinaryString(i+11));
             System.out.println(Integer.toBinaryString(i+0)); //new branch
+            System.out.println(Integer.toBinaryString(i+1));
+            System.out.println(Integer.toBinaryString(i+22));
+            System.out.println(Integer.toBinaryString(i+3)); //new branch
         }
 
     }
