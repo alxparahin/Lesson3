@@ -148,10 +148,10 @@ public class Task1 {
 
     public void getBinaryString(){
         for(int i=1; i<8; i++){
+            System.out.println(Integer.toBinaryString(i-1));
+            System.out.println(Integer.toBinaryString(i));
             System.out.println(Integer.toBinaryString(i+1));
-            System.out.println(Integer.toBinaryString(i+1));
-            System.out.println(Integer.toBinaryString(i+1));
-            System.out.println(Integer.toBinaryString(i)); //new branch
+            System.out.println(Integer.toBinaryString(i+0)); //new branch
         }
 
     }
